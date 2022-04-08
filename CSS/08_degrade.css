@@ -1,0 +1,10 @@
+.contenu {
+    background: linear-gradient(to left,#40a497, #6840a4);
+/* degrade qui démarre avec la première couleur et finit avec la seconde de haut en bas (par défaut) tout left = de gauche à droite */
+width:45em;
+height:45em;
+margin:0 auto;
+border-radius:50%;
+/* cette propriétaire border-radius permet d'arrrondir un angle d' un carré */
+
+}
