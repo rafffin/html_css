@@ -1,20 +1,189 @@
 .boite{
     height: 10vh;
-    width: 18vh;
-    background-color: bisque;
-    border: 10px solid black;
+    width: 22vh;
+    background-color: rgb(158, 26, 147);
+    /* border: 10px solid black; */
     float:left;
-    margin: 2px;
-    padding: 20px;
-    background: url("../img/OIP.jfif");
+    margin: 5px;
+    padding: 09px;
+    /* background: url("../img/OIP.jfif"); */
     background-repeat :inherit;
-    border: 5px double black; 
+     border: 5px double black; 
     /* taille:;
     style:; 
     couleur de la bordure:;  */
-    margin: 5vh 1vh 5vh 1vh;
+    /* margin: 5vh 1vh 5vh 1vh; */
+    /*float : left;*/
+    /*transition: margin 5.5s;*/ 
+}
+.boite2{
+    height: 10vh;
+    width: 22vh;
+    background-color: rgb(26, 158, 86);
+    /* border: 10px solid black; */
+    float:left;
+    margin: 5px;
+    padding: 09px;
+    /* background: url("../img/OIP.jfif"); */
+    background-repeat :inherit;
+     border: 5px double black; 
+    /* taille:;
+    style:; 
+    couleur de la bordure:;  */
+    /* margin: 5vh 1vh 5vh 1vh; */
+    /*float : left;*/
+    /*transition: margin 5.5s;*/ 
+}
+.boite3{
+    height: 10vh;
+    width: 22vh;
+    background-color: rgb(158, 26, 147);
+    /* border: 10px solid black; */
+    float:left;
+    margin: 5px;
+    padding: 09px;
+    /* background: url("../img/OIP.jfif"); */
+    background-repeat :inherit;
+     border: 5px double black; 
+    /* taille:;
+    style:; 
+    couleur de la bordure:;  */
+    /* margin: 5vh 1vh 5vh 1vh; */
+    /*float : left;*/
+    /*transition: margin 5.5s;*/ 
+}
+.boite4{
+    height: 10vh;
+    width: 22vh;
+    background-color: rgb(26, 158, 86);
+    /* border: 10px solid black; */
+    float:left;
+    margin: 5px;
+    padding: 09px;
+    /* background: url("../img/OIP.jfif"); */
+    background-repeat :inherit;
+     border: 5px double black; 
+    /* taille:;
+    style:; 
+    couleur de la bordure:;  */
+    /* margin: 5vh 1vh 5vh 1vh; */
+    /*float : left;*/
+    /*transition: margin 5.5s;*/ 
+}
+.boite5{
+    height: 10vh;
+    width: 22vh;
+    background-color: rgb(26, 158, 86);
+    /* border: 10px solid black; */
+    float:left;
+    margin: 5px;
+    padding: 09px;
+    /* background: url("../img/OIP.jfif"); */
+    background-repeat :inherit;
+     border: 5px double black; 
+    /* taille:;
+    style:; 
+    couleur de la bordure:;  */
+    /* margin: 5vh 1vh 5vh 1vh; */
+    /*float : left;*/
+    /*transition: margin 5.5s;*/ 
+}
+.boite6{
+    height: 10vh;
+    width: 22vh;
+    background-color:rgb(158, 26, 147) ;
+    /* border: 10px solid black; */
+    float:left;
+    margin: 5px;
+    padding: 09px;
+    /* background: url("../img/OIP.jfif"); */
+    background-repeat :inherit;
+     border: 5px double black; 
+    /* taille:;
+    style:; 
+    couleur de la bordure:;  */
+    /* margin: 5vh 1vh 5vh 1vh; */
+    /*float : left;*/
+    /*transition: margin 5.5s;*/ 
+}
+.boite7{
+    height: 10vh;
+    width: 22vh;
+    background-color: rgb(26, 158, 86);
+    /* border: 10px solid black; */
+    float:left;
+    margin: 5px;
+    padding: 09px;
+    /* background: url("../img/OIP.jfif"); */
+    background-repeat :inherit;
+     border: 5px double black; 
+    /* taille:;
+    style:; 
+    couleur de la bordure:;  */
+    /* margin: 5vh 1vh 5vh 1vh; */
+    /*float : left;*/
+    /*transition: margin 5.5s;*/ 
+}
+.boite8{
+    height: 10vh;
+    width: 22vh;
+    background-color:rgb(158, 26, 147) ;
+    /* border: 10px solid black; */
+    float:left;
+    margin: 5px;
+    padding: 09px;
+    /* background: url("../img/OIP.jfif"); */
+    background-repeat :inherit;
+     border: 5px double black; 
+    /* taille:;
+    style:; 
+    couleur de la bordure:;  */
+    /* margin: 5vh 1vh 5vh 1vh; */
     /*float : left;*/
     /*transition: margin 5.5s;*/ 
 }
 
+.conteneur{
+    height: 800px;
+    width: 1000px;
+    margin:auto;
+    background: paleturquoise;
+    color: white;
+    
 
+}
+header{
+width:1000px;
+height: 100px;
+background-color:burlywood ;
+text-align:center;
+
+
+}
+nav{
+    width:1000px;
+    height: 60px;
+    background-color:grey ;
+    text-align:center;
+    line-height:  50px; 
+
+    
+}
+section{
+    height: 540px;
+    background:blue ;
+    text-align:center;
+
+
+}
+footer{
+    width:1000px;
+    height: 100px;
+    background-color:gray ;
+    text-align:center;
+
+    
+}
+body{
+    line-height: 100px;
+}
