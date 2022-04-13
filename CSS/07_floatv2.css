@@ -1,0 +1,74 @@
+body {
+    margin:0 auto;
+    /*
+    margin:0 auto 0 auto;-> haut droite t
+    margin : 0
+      */
+
+      background-color: antiquewhite
+}
+
+div{ 
+    width: 90;
+    margin:0px;
+    background-color:lightblue; 
+}
+p{
+    background-color: mediumaquamarine;
+    /*propriété suivante à tester!*/
+    /*display:inline;*/
+}
+
+p span{
+/* sélectionne les span contenus dans des p*/
+background-color: yellow;
+}
+
+.boite-bleu{
+height: 11vh;
+width: 18vh;
+padding:5vh;
+background-color: blue;
+background-repeat : no-repeat;
+border: 10px double orchid; 
+/*taille, style, couleur de la bordure */
+margin: 2vh 1vh 1vh 2vh;
+float : left;
+transition: margin 0.5s;
+}
+
+.boite-vert{
+    height: 11vh;
+    width: 18vh;
+    padding:5vh;
+    background-color: green;
+    background-repeat : no-repeat;
+    border: 10px double orchid; 
+    /*taille, style, couleur de la bordure */
+    margin: 2vh 1vh 1vh 2vh;
+    float : left;
+    transition: margin 0.5s;
+    }
+    
+
+.boite:hover{
+    /* la pseudo-class: hover modifie un affichage au*/
+    margin-top: 10vh;
+
+}
+.clear{
+    clear:both;
+    /* supprimer l'effet floatant*/
+}
+
+img.les2images{
+    display: inline;
+}
+
+.boite-bleu{
+ border-radius: 10%;
+}
+.boite-vert{
+    border-radius: 10% 25%  10% 25%;
+   }
+

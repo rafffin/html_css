@@ -1,0 +1,56 @@
+h2{
+    background-color: #6b737f;
+    color:white;
+    padding: 0.5em;
+}
+
+h3{
+    background-color: #c2b2b4;
+    color:#610f7f;
+    padding:0.25em;
+
+}
+.contenu_1{
+    border:1px solid yellowgreen;
+    height: 200px;
+    display:flex;
+    flex-direction:row-reverse; 
+    /*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    justify-content: space-around;
+
+}
+.item1{
+    background-color: lightsalmon;
+    width:80px;
+    height: 80px;
+/*flex-grow: 2; /* pour définir la taille d' un élément*/
+}
+.item2{
+    background-color: green;
+    width:80px;
+    height: 80px;
+   flex-basis: 250px
+    /* definit la taille de base d'un élémént, la taille sera en pixel */
+}
+
+
+.item3{
+background-color:red;
+width:80px;
+height: 80px; 
+order:1; 
+/*il change l'ordre de l'affichage d' un éléménet par rapport au flux web (insertion par défaut dans html)*/
+
+}
+.contenu_1{
+    border:1px solid orange;
+    height:200px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* la valeur par défaut est row, les valeurs possibles ( colimn,row,row-reverse,column-reverse..)*/
+    justify-content/ space-around;
+    /* la valeur par défaut ici c'est flex-start, les valeurs possibles ici ( center, flex-end, flex-start, space-between, space-around).*/
+/* space-between: les elements sont reparties sur la totalité de la ligne (l'axe principal qui est definit par flex-direction) en créant dese espaces entre les elements
+}space-around: les elements sont réparties sur la totalité de la ligne en creant des espaces alentours des elements 
+center: il va centrer les elements dans le conteneur*/ 
+/* align-items permet d'aligner l' element sur l' hauteur du conteneur seulement si l' element n'a pas de height de base ( height n'est pas definit)
