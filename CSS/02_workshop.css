@@ -1,5 +1,6 @@
-#conteneur{
-    width: 960px;
+.boite{
+    width: 800px;
+    height: 600;
     background: paleturquoise;
     color: white;
     margin: 0 auto;
