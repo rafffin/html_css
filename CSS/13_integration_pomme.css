@@ -1,0 +1,28 @@
+body {
+  background-color: greenyellow;
+}
+.container {
+  background-color: white;
+  width: 35%;
+  margin: auto;
+}
+.list-menu {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  background-color: green;
+  padding: 10px;
+  margin: 10px;
+  border-right: dashed;
+  border-bottom-width: 15px;
+  border-top-width: 5rem;
+  border-left-width: 15px;
+  border-right-width: 5em;
+}
+
+.fg {
+  border-bottom-width: 50px;
+  border-top-width: 15rem;
+  border-left-width: 50px;
+  border-right-width: 15em;
+}
