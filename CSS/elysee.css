@@ -1,0 +1,16 @@
+.date_accueil {
+  text-transform: uppercase;
+}
+.left_part_accueil {
+  padding-top: 300px;
+}
+h1 {
+  text-align: center;
+}
+
+.fleche_lien:hover .blanc {
+  display: none !important;
+}
+.fleche_lien:hover .noir {
+  display: inline !important;
+}
