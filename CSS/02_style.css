@@ -1,0 +1,42 @@
+.carre1 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
+.carre2 {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
+.conteneur {
+  margin: auto;
+  width: 100px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 120px solid pink;
+}
+
+.rond {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: flex;
+}
+.carre3 {
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  display: flex;
+}
+
+.carre4 {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+}

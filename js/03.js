@@ -1,0 +1,15 @@
+var nb1, nb2, resultat;
+nb1 = 10;
+nb2 = 5;
+resultat = nb1 + nb2;
+var nb1, nb2, resultat2;
+resultat2 = nb1 - nb2;
+var nb1, nb2, resultat3;
+resultat3 = nb1 / nb2;
+var nb1, nb2, resultat4;
+resultat4 = nb1 * nb2;
+var nb1, nb2, resultat5;
+resultat5 = 2062 / 13;
+var resultat6 = 2062 % 13;
+resultat = nb1 % nb2;
+console.log("Le reste de la division de" + nb1 + "par" + nb2 + "est");
