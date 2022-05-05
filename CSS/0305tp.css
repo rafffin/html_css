@@ -1,0 +1,44 @@
+.defileParent {
+  display: block;
+  margin: 3em auto;
+  overflow: hidden;
+  position: relative;
+  table-layout: fixed;
+  width: 700px;
+}
+img {
+  width: 220px;
+  height: 220px;
+  border-radius: 200px;
+  background: green;
+  display: flex;
+}
+.block1 {
+  display: flex;
+}
+.sec1 {
+  border-radius: 50%;
+  display: flex;
+}
+.now {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: green;
+  display: flex;
+}
+p {
+  display: flex;
+  unicode-bidi: isolate;
+  margin-block-start: 0.05em;
+  margin-block-end: 0.05em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.photo thai {
+  position: left;
+}
+.japon1 {
+  display: flex;
+}

@@ -8,41 +8,39 @@
 */
 
 // -- 1 : Déclarer une variable en JS
-//var Prenom;
+var Prenom;
+N;
 
 // -- 2 : Affecter une valeur à une variable
-//Prenom = "Mila";
+Prenom = "Mila";
 
-// // initialiser une variable
-//var Prenom = "Mila";
+// Initialiser une variable
+var Prenom = "Mila";
 
 // -- 3 : une instruction se termine TOUJOURS par un point-virgule, aussi il est possible d'écrire plusieurs instructions sur une seule ligne
 // inst_1;
 // inst_2; inst_3;
 
 // -- 4 : Afficher une boîte de dialogue (2 façons)
-// alert("Super, tu es arrivé sur mon site !");
-// window.alert("Super, tu es arrivé sur mon site !");
-alert("Bonjour, et bienvenue!");
-window.alert("Bonjour,et bienvenue!");
+alert("Super, tu es arrivé sur mon site !");
+window.alert("Super, tu es arrivé sur mon site !");
+
 // -- 5 : Afficher dans la console (ici, la valeur de ma variable Prenom)
-//console.log(Prenom);
+console.log(Prenom);
 
 // -- 6 : Afficher dans la page web
-//document.write("A la pause vous aurez des Haribos Pik !");
-var reponse = "jour de la semaine";
+document.write("A la pause vous aurez des Haribos Pik !");
+
 // -- 7 : Demander à l'utilisateur une valeur (2 façons)
-// window.prompt("Question: on est quel jour ?", "jour de la semaine");
-// prompt("Question: on est quel jour ?", "Mardi");
-var question = prompt("Question: on est quel jour ?");
-document.write(question);
+window.prompt("Question: on est quel jour ?", "jour de la semaine");
+prompt("Question: on est quel jour ?", "jour de la semaine");
 
 // -- et pour manipuler cette valeur, je n'oublie pas de la stocker
-//-- var jour = prompt("Question: on est quel jour ?", " jour de la semaine");
-//--console.log(jour);
+var jour = prompt("Question: on est quel jour ?", "jour de la semaine");
+console.log(jour);
 
 // -- 8 : Attention /!\ le JS est sensible à la casse ('case sensitive')
-// mavariable =/= maVariable =/= ma_variable
+//mavariable =/= maVariable =/= ma_variable
 //                camel case     snake case
 
 // -- 9 : Une variable ne peut pas commencer par un chiffre, ne doit contenir que des caractères alphanumériques, et ne peut pas être un mot réservé (var, for... des éléments natifs du langage JS)
@@ -50,11 +48,11 @@ document.write(question);
 // https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Mots_r%C3%A9serv%C3%A9s
 
 // -- 10 : Une variable peut être déclarée de façon explicite :
-//var fruit;
-//var fruit = "fraise";
+var fruit;
+var fruit = "fraise";
 // ou implicite :
-//var fruit_2 = "coco";
-//haribo = "Tagada";
+var fruit_2 = "coco";
+haribo = "Tagada";
 
 /*----------------------------------------
 / ~~~~~~   LES TYPES DE VARIABLES ~~~~~~ /
@@ -62,6 +60,8 @@ document.write(question);
 
 // -- 1. Chaîne de caratères (string)
 var vacances = "2017";
+console.log(vacances);
+console.log(typeof vacances);
 var destination = "Australie";
 
 // -- 2. Un nombre entier (integer ou int)
@@ -75,8 +75,7 @@ var unBooleen = false; // -- true
 
 // -- 5. Les Constantes
 
-/* La déclaration const permet de créer une constante accessible uniquement en lecture. Contrairement à
- une variable sa valeur ne peut plus être modifiée par réaffectation plus bas dans le code.
+/* La déclaration const permet de créer une constante accessible uniquement en lecture. Contrairement à une variable sa valeur ne peut plus être modifiée par réaffectation plus bas dans le code.
  Une constante ne peut pas être déclarée à nouveau dans le même script.
 */
 
