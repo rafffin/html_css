@@ -13,41 +13,43 @@ LES BOUCLES
 2. la condition à vérifier qui doit donc être VRAIE (TRUE)
 3. le 'pas' d'incrémentation (combien j'ajoute à chaque tour, généralement 1 donc i++)
 */
-for (var i = 1; i <= 10; i++) {
-  document.write("<p>Instruction exécutée : " + i + "</p>");
-}
+//  for (var i = 1; i <= 10; i++) {}
+// document.write("<p>Instruction exécutée : " + i + "</p>");
 
 // -- La boucle WHILE (tant que)
 // très utilisée quand on ne connaît pas le nombre de tours de boucles à l'avance
-var j = 1;
-while (j <= 10) {
-  document.write("<hr /><p>Instruction exécutée : " + j + "</p>");
-  /* 50 lignes de code */
-  j += 2; // j = j + 1; OU j += 1;
-}
+// var j = prompt(" inserez votre prénom");
+// while (j != "michel") {
+//   j = prompt("la valeur n' est pas correcte, Insérez votre prénom :");
+// }
+// document.write("<hr /><p>i:" + j + "</p>");
 
-/* -------------------------------
-            EXERCICE
-j'ai 1000€ sur mon compte
-chaque mois j'ajoute 50€
-combien de temps me faut-il pour avoir 2000€ sur mon compte ?
--------------------------------- */
+// EXERCICE;
+// j'ai 1000€ sur mon compte
+// chaque mois j'ajoute 50€
+// combien de temps me faut-il pour avoir 2000€ sur mon compte ?
+
 var monCompte = 1000;
 var temps = 0;
+for (var i = 1000; i< 2000; i += 50) {
+
+}
+document.write("temps +1");
+
 while (monCompte < 2000) {
   monCompte += 50;
   temps++;
-}
-document.write("<h3>Sous sur mon compte : " + monCompte + "</h3>");
-document.write("<h3>Jusqu'à 2000€, il me faut : " + temps + " mois</h3>");
-// document.write("<h3>Jusqu'à 2000€, il me faut : " + (temps/12) + " années</h3>");
+
+// document.write("<h3>Sous sur mon compte : " + monCompte + "</h3>");
+// document.write("<h3>Jusqu'à 2000€, il me faut : " + temps + " mois</h3>");
+// / document.write("<h3>Jusqu'à 2000€, il me faut : " + (temps/12) + " années</h3>");
 
 // avec une boucle FOR
-var tps = 0;
-for (var mesSous = 1000; mesSous < 2000; mesSous += 50) {
-  document.write("<h3>Le mois suivant j'ai : " + mesSous + "</h3>");
-  tps++;
-}
-document.write("<h3>Il aura fallu " + tps + " mois.</h3>");
+//  var tps = 0;
+//  for (var mesSous = 1000; mesSous < 2000; mesSous += 50) {
+//    document.write("<h3>Le mois suivant j'ai : " + mesSous + "</h3>");
+//    tps++;
+//  }
+//  document.write("<h3>Il aura fallu " + tps + " mois.</h3>");
 
 /*FIN*/
