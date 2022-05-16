@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <meta name='description' content='Utiliser les snippets sur VSCode'>
+    <meta name='author' content='Sonia Bougamha'>
+    <meta name='keywords' content='snippets, visual studio code, doctype, json, créer un snippet sur visual code'>
+    <title>Snippets VSCode</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Créer des snippets avec Visual Studio Code</h1>
+    <main>
+        <section>
+            <h2>Utilité des snippets</h2>
+
+            <hr>
+
+            <p>Laïus sur l'utilité de gagner du temps</p>
+        </section>
+
+        <section>
+            <h2>Où créer un snippet</h2>
+
+            <hr>
+
+            <ul>
+                <li>Sur MAC : En haut à gauche <mark>Code -> Preferences -> User Snippets</mark> -> Dans le champ de
+                    saisie choisis un langage</li>
+
+                <li>Sur windows : En haut à gauche <mark>File -> Preferences -> User Snippets</mark> -> Dans le champ de
+                    saisie choisis un langage</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Fonctionnement JSON</h2>
+
+            <hr>
+
+            <p>Le snippet est <mark>délimité par des accolades</mark> {, on rentre les données lignes après lignes,
+                <mark>chaque ligne se termine par une virgule</mark> sauf la dernière (soyez attentif).</p>
+
+            <p>Les <mark>propriétés et leur(s) valeur(s) sont encadrées par des guillemets doubles et deux point</mark>
+                : séparent la propriété de leur(s) valeur(s).</p>
+
+            <p>Dans les guillemets les <mark>espaces comptent</mark> et permettent d'indenter le code, les tabulations
+                ne sont elles pas acceptées.</p>
+
+            <p>Il est possible de <mark>guider le curseur de saisie</mark> afin de remplir le code de manière fluide
+                lors de l'utilisation du snippet, pour ce faire nous utiliseront dollard + n. Comme ceci: $1, $2 etc...
+            </p>
+        </section>
+
+        <section>
+            <h2>Création de snippet</h2>
+
+            <hr>
+
+            <p>Evidement demandez aux apprenants de remplir les métas content à leur guise et changez / ajouter ce qui
+                vous semble néccessaire</p>
+
+            <pre>
+{
+    // Snippets : enregistre du code pour simplifier la saisie ultérieur de code, automatisation des tâches, 
+    le code est enregistré dans un fichier JSON {propriété: valeur}
+    // Sur MAC : Code -> Preferences -> User Snippets -> choisis un langage
+    // Sur windows : File -> Preferences -> User Snippets -> choisis un langage
+
+    // Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+    // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    // same ids are connected.
+
+    // Exemple:
+    "Print to console": {
+        "prefix": "docperso", // mot clef à taper pour afficher le code
+        "body": [
+            "<!DOCTYPE html>", // retour à la ligne automatique après la virgule
+            "<html lang='fr'>",
+            "<head>",
+            "    <meta charset='UTF-8'>",// sensible à la case
+            "    <meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+            "    <meta http-equiv='X-UA-Compatible' content='ie=edge'>",
+            "    <meta name='description' content='$1'>",// $1 -> $n pour guider le curseur de saisie (tab pour se déplacer)
+            "    <meta name='author' content='Sonia Bougamha'>",
+            "    <meta name='keywords' content='$2, $3, $4, $5mot1, mot2, serie de mots'>",
+            "    <title>$6</title>",
+            "    $7",
+            "    <link rel='stylesheet' href='css/style.css' type='text/css'>",
+            "</head>",
+            "<body>",
+            "    $8",
+            "    <script type='text/javascript' src='js/script.js'></script>",
+            "</body>",
+            "</html>"// virgule non neccessaire à la fin
+        ],
+        "description": "Custom doctype with 'sonia' as author"// note pour donner des infos sur le code pré-enregisré
+    }
+}
+            </pre>
+        </section>
+
+        <section>
+            <h2>Vidéo explicative en anglais</h2>
+
+            <hr>
+
+            <p>Vous pouvez la fournir à vos apprenants ou juste la visionner : <a
+                    href="https://www.youtube.com/watch?v=igBnt_glGTo" target="_blank">Guide to Creating Custom Code
+                    Snippets in VS Code</a> par <i>edutechional</i>.</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/igBnt_glGTo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+    </main>
+</body>
+
+</html>

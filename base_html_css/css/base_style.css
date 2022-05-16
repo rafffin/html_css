@@ -1,0 +1,83 @@
+.mainly {
+  position: center;
+}
+.source1 {
+  display: flex;
+  background-color: bisque;
+  justify-content: space-around;
+  margin: auto;
+}
+.source2 {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: 5s infinite;
+}
+
+@keyframes image5 {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  75% {
+    top: 50px;
+  }
+  100% {
+    top: 100px;
+  }
+}
+
+.image1 img {
+  box-shadow: 2px 2px 5px red;
+  filter: blur(100%);
+  transform: rotate(10deg);
+}
+
+.image1 img:hover {
+  box-shadow: 2px 2px 5px red;
+  filter: blur(100%);
+  transform: rotate(50deg);
+}
+.image2 {
+  margin-left: 0.5%;
+  box-shadow: 2px 2px 5px red;
+  filter: sepia(100%);
+  transform: skew(10deg);
+}
+.image2 img:hover {
+  margin-left: 0.5%;
+  box-shadow: 2px 2px 5px red;
+  filter: sepia(100%);
+  transform: skew(50deg);
+}
+.image3 {
+  margin-left: 0.5%;
+  box-shadow: 2px 2px 5px red;
+  filter: contrast(50%) (100%);
+  transform: rotate(05deg);
+}
+.image3 img:hover {
+  margin-left: 0.5%;
+  box-shadow: 2px 2px 5px red;
+  filter: contrast(50%) (100%);
+  transform: rotate(60deg);
+}
+
+.image4 {
+  margin: left 0.5%;
+  box-shadow: 2px 2px 5px red;
+  filter: grayscale(50%) (100%);
+  padding-left: 0.5%;
+  transform: rotate(10deg);
+}
+.image4 img:hover {
+  margin: left 0.5%;
+  box-shadow: 2px 2px 5px red;
+  filter: grayscale(50%) (100%);
+  padding-left: 0.5%;
+  transform: rotate(60deg);
+}

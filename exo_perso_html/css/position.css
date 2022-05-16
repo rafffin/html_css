@@ -1,0 +1,151 @@
+/*********ABSOLUTE********/
+
+.centre {
+  margin: 0 auto;
+  width: 500px;
+  height: 200px;
+  background: #33cccc;
+}
+
+.absolute {
+  position: relative;
+  top: 24%;
+  left: 10%;
+  background: orange;
+  width: 100px;
+  height: 100px;
+}
+
+/*******RELATIVE*******/
+
+.relative {
+  background: #2d5c7f;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  bottom: 10px;
+  left: 100px;
+}
+
+.relative div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: #fff1a8;
+}
+
+/*le bouton pour remonter en haut de page */
+
+button {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 350%;
+  color: #2d5c7f;
+}
+
+.trente {
+  width: 30%;
+  padding: 20px;
+  font-size: 22px;
+  background: #3c1b1f;
+  color: #f6e1b5;
+  font-weight: bold;
+}
+
+.cinquante {
+  width: 50%;
+  padding: 20px;
+  font-size: 22px;
+  background: #b21e4b;
+  color: #e2bf81;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.cent {
+  width: 100%;
+  padding: 20px;
+  font-size: 22px;
+  background: #e2bf81;
+  color: #b21e4b;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+/********************FLOAT*****************************/
+
+.float {
+  height: 170px;
+  width: 170px;
+  margin: 10px;
+  padding-top: 2px;
+  float: left;
+  text-align: center;
+  font-size: 25px;
+  background: #f8d771;
+  border: 2px solid darkred;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************Exercice Float *********************/
+
+.zone {
+  height: 70px;
+  background: #3a4750;
+}
+
+.zone1,
+.zone2,
+.zone3,
+.zone4 {
+  height: 250px;
+  width: 25%;
+  float: left;
+}
+
+.zone1 {
+  background: #2d5c7f;
+}
+
+.zone2 {
+  background: #fff1a8;
+}
+
+.zone3 {
+  background: #ff8f56;
+}
+
+.zone4 {
+  background: #984a59;
+}
+
+/***********************FLEXBOX*************************/
+
+.flex {
+  display: flex;
+  /*justify-content: space-around;*/
+  justify-content: space-between;
+  /*flex-direction: column;*/
+  /*flex-direction: row-reverse;*/
+}
+
+.flex div {
+  width: 150px;
+  height: 150px;
+  background: darkblue;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  border: 10px outset rgb(51, 51, 255);
+}
+
+/********************FIN PAGE POSITION******************/

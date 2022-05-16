@@ -1,0 +1,25 @@
+.contenair1, .contenair2{
+	border: 2px solid rgb(66, 66, 66);
+	margin: 20px;
+	display: flex;
+}
+.contenair1{
+	justify-content: space-between;
+}
+
+.contenair2{
+	flex-direction: column-reverse;
+}
+
+.flex{
+	height: 100px;
+	width: 200px;
+	margin: 20px;
+	background: rgb(66, 66, 66);
+	color: #fff;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+

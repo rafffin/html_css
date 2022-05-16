@@ -44,13 +44,13 @@ h3 {
    
 }
 .contenu_1{
-    border:1px solid brown;
+    border:1px solid orange;
     height: 200px;
     display:flex;
     flex-direction:row-reverse;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
     justify-content: space-around;/*la valeur par defaut ici c'est flex-start, les valeurs possibles ici(center,flex-end,flex-start,space-between,space-around)*/
 /*
-space-between:les elements sont réparties sur la totalité de la ligne(l'axe principal qui est definit par flex-direction) en créant des espaces entre les elements
+space-between:les elements sont réparties sur la totalité de la ligne(l'axe principal qui est definit par flex-direction) en cryant des espaces entre les elements
 space-around:les elements sont réparties sur la totalité de la ligne en cryant des espaces alentours des elements
 center:il va centrer les elements dans le conteneur
 */
@@ -59,7 +59,7 @@ center:il va centrer les elements dans le conteneur
 
 }
 .contenu_2{
-    border:1px solid violet;
+    border:1px solid orange;
     height: 200px;
     display:flex;
     flex-direction:row;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
@@ -75,7 +75,7 @@ center:il va centrer les elements dans le conteneur
    
 }
 .contenu_4{
-    border:1px solid palegoldenrodS;
+    border:1px solid orange;
     height: 200px;
     display:flex;
     flex-direction:row-reverse;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/

@@ -1,0 +1,45 @@
+/* commentaire encss*/
+
+*{
+    text-align:right;
+}
+
+body{
+    background: #d106b6;
+}
+
+header{
+background-color: #900c3f;
+color:#fff;
+height:100px;
+}
+
+nav{
+background-color:;
+height:60px;
+}
+
+section {
+background-color:#daf7a6;
+height:66px;
+}
+
+article{
+background-color:#3a7c8d;
+height: 75px;
+}
+
+nav,
+footer{
+    color:#b4aa15;
+}
+
+.jaune{
+    background-color: yellow
+}
+
+#noir{
+background-color:black;
+
+
+}

@@ -1,71 +1,64 @@
 body{
-    font-size:25px;
+    font-size: 25px;/*taille de police: 25 pixels*/
 }
 
 h1{
-    background-color: darkslategray;
-    color:white;
+    background-color: darkslategray;/* couleur de fond*/
+    color: white;/* couleur du texte */
 }
 
-section p {
-    color: red
-    /*tous les <p> à l'intérieur de la balise <section>*/;
+section p{
+    color: red;/*tous les <p> à l'intérieur de la balise <section>*/
 }
 
-section p first-child {
-    color:darkblue;
-/*premier <p>*/
+section p:first-child{
+    color: darkviolet;/* 1er p dans section */
 }
 
-section p:nth-child(even) {
-color:  lightblue;
-/*les <p> pairs*/
+section p:last-child{
+    color: lightpink;/* dernier p dans section */
 }
 
-section p:last-child {
-color: lightgreen ;
+section p:nth-child(even){/* numéro de l'enfant */
+    color: lightskyblue;/* les p pairs */
 }
 
-section p:nth-child(odd) {
-    color: violet ;
-   /*les <p> impairs*/ 
+section p:nth-child(odd){/* numéro de l'enfant */
+    color: orchid;/* les p impairs */
 }
 
-section p:nth-child(3);
-section p:nth-child(10) {
+section p:nth-child(3), section p:nth-child(10){/* deux selecteurs séparés par une virgule les numéro 3 et 10*/
     color: orange;
-    /*les <p> 3,10*/
 }
 
-.zone1{
+.zone1{/*CLASS donc avant son nom je mets un . */
     color: #dc143c;
 }
-
-.zone2 {
-    color:#dc143c;
+.zone2{
+    color: #008080;
 }
-
-.lime {
-    color: beige;
+.lime{
+    color: #00ff00;
 }
-
-#zone3{
-    background-color: #dc143c;
+#zone3{/*ID donc avant son nom je mets un # */
+    background-color: #f5deb3;
 }
-
-#zone3:after {
-    /* rajouter contenu après l'd zone3*/
-    content: "rajouté après";
-    background-color: aqua;
+#zone3:before{/*rajouter contenu avant l'ID zone3*/
+    content: "rajouté avant ";/* content est obligatoire, les contenus ne s'affichent pas dans le html=> attention accessibilité, on peut le laisser vide on peut même rajouter des attributs à une balise attr(title)*/
+    background-color: cyan;
 }
-
-#zone3:before {
-/* rajouter contenu après l'd zone3*/
-content: "rajouté après";
-background-color: yellow ;
+#zone3:after{/*rajouter contenu après l'ID zone3*/
+    content: " rajouté après";
 }
-
-li:nth-child(2) {
+li:nth-of-type(2){/* différence entre nt-child et nth-of-type: https://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/ */
     background-color: darkred;
-    color: white ;
+    color: white;
+}
+
+/* exo pratique : sélectionnez le span qui n'a pas de class et seulement lui pour lui appliquer du style (pas le droit de toucher au html) */
+.zone4 span{
+    font-size: 40px;
+}
+span:not(.lime){
+    font-weight: bold;
 }

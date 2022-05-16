@@ -1,41 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Float</title>
-    <link rel="stylesheet" href="css/07_float.css" type=" text/css">
-
-
+    <link rel="stylesheet" href="css/07_float.css">
 </head>
-<body>
+
+<body><!--div>p{Test paragraphe contenant une}>span{balise inline.}-->
     <div>
-<p>  
-    text paragraphe contenant une <span> balise inline</span>.
-</p>
-  <br>
-<div class="boite"><p>  
-    text paragraphe contenant une <span> balise inline</span>.
-</p>
-</div>
-<div class="boite">2</div>
-<div class="boite">3 </div>
-<div class="boite">4</div>
-<div class="boite">5</div>
-<div class="boite">6</div>
-<div class="boite">7 </div>
-<div class="boite">8</div>
-<div class="boite">9 </div>
-<div class="boite">10</div>
+        <p>Test paragraphe contenant une
+            <span>balise inline.</span>
+        </p>
+        <hr />
+        <!-- div.boite{$}*4+.clear -->
+        <div class="boite">1</div>
+        <div class="boite">2</div>
+        <div class="boite">3</div>
+        <div class="boite">4</div>
 
-<img src="img/chat.jpg" class="les2images" alt="">
-<img src="img/chat.jpg" class="les2images" alt="">
-<img src="les2images" alt="">
-<img src="les2images" alt="">
-<img src="les2images" alt="">
-<img src="les2images" alt="">
+        <div class="clear"></div>
 
-</div>
+        <!-- div.boite{$@5}*4+.clear+div{$@9}*2 -->
+        <div class="boite">5</div>
+        <div class="boite">6</div>
+        <div class="boite">7</div>
+        <div class="boite">8</div>
+
+        <div class="clear"></div>
+
+        <div class="boite">9</div>
+        <div class="boite">10</div>
+    </div>
 </body>
+
 </html>
